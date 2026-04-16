@@ -1,5 +1,15 @@
-# 🦀 OxidOS
+# OxidOS
 
-**OxidOS** 是一个受 [blog_os](https://github.com/phil-opp/blog_os) 启发，尝试使用 **Rust** 语言从零开始编写的 64 位操作系统内核。
+[English](#english-version) | [中文版](#中文版)
 
-这是一个纯粹的教育性质项目，旨在深入理解计算机底层架构、内存管理以及 Rust 在裸机环境下的表现。
+---
+
+<a name="english-version"></a>
+## English Version
+OxidOS is a 64-bit OS kernel...
+
+---
+
+<a name="中文版"></a>
+## 中文版
+OxidOS 是一个从零开始编写的内核...
