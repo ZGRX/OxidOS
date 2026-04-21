@@ -6,9 +6,9 @@ use core::panic::PanicInfo;
 fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
-#[unsafe(no_mangle)]
-pub extern "C" fn _start() -> ! {
-    // 因为链接器会寻找一个名为 `_start` 的函数，所以这个函数就是入口点
-    // 默认命名为 `_start`
-    loop {}
-}
+// #[unsafe(no_mangle)]
+// pub extern "C" fn _start() -> ! {
+//     // 因为链接器会寻找一个名为 `_start` 的函数，所以这个函数就是入口点
+//     // 默认命名为 `_start`
+//     loop {}
+// }
